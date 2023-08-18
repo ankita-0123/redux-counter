@@ -13,14 +13,14 @@ const Auth = () => {
       <section>
         <form onSubmit={loginHandler}>
           <div className={classes.control}>
-            <label htmlFor='email'>Email</label>
+            <label htmlFor='email'><strong>Email</strong></label>
             <input type='email' id='email' />
           </div>
           <div className={classes.control}>
-            <label htmlFor='password'>Password</label>
+            <label htmlFor='password'><strong>Password</strong></label>
             <input type='password' id='password' />
           </div>
-          <button>Login</button>
+          <button >Login</button>
         </form>
       </section>
     </main>
