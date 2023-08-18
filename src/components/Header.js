@@ -15,13 +15,9 @@ const Header = () => {
       <h1>Redux Auth</h1>
     {isAuth &&<nav>
         <ul>
-          
-          
         <button className={`${classes.logoutButton} ${classes.navButton}`} onClick={logoutHandler}>
   Logout
 </button>
-
-          
         </ul>
       </nav>}
     </header>
